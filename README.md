@@ -8,6 +8,10 @@ pip install boto3
 pip install hashlib
 ```
 
+## Configuration
+ .aws/credentials and .aws/config has to be defined. The program is using [default] profile.
+
+
 ## Usage
 ```bash
 python3 backup.py local-directory-name bucket-name
